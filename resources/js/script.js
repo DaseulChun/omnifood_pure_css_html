@@ -78,16 +78,8 @@ $(document).ready(function() {
     offset: "50%"
   });
 
-  // $('.js--wp-4').waypoint(function(direction) {
-  //   $('.js--wp-4').addClass('animated fadeInUp');
-  // }, {
-  //   offset: "50%"
-  // });
-
   $('.js--wp-4').waypoint(function(direction) {
-    $('.js--wp-4').mouseover(function() {
-      $('.js--wp-4').addClass('animated pulse');
-    })
+    $('.js--wp-4').addClass('animated pulse');
   }, {
     offset: "50%"
   });
