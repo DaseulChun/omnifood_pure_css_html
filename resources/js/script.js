@@ -84,3 +84,16 @@ $(document).ready(function() {
     offset: "50%"
   });
 }); 
+
+/* Mobile nav */
+$('.js--nav-icon').click(function() {
+  const nav = $('.js--main-nav');
+  const icon = $('.js--nav-icon ion-icon');
+
+  nav.slideToggle(200);
+  if (icon.attr("name") === "menu") {
+    icon.attr("name", "close");
+  } else {
+    icon.attr("name", "menu");
+  }
+});
