@@ -42,7 +42,11 @@
 
   .plan-price { font-size: 250%; }
 
-  .contact-form { width: 80%; }
+  .contact-form { width: 90%; }
+
+  .form-box div{
+    padding: 0;
+  }
 }
 
 
@@ -111,11 +115,33 @@
 
   .works-step { margin-bottom: 20px; }
   .works-step:last-of-type { margin-bottom: 20px; }
+
+  .map-box {
+    display: block;
+    padding: 30px 5%;
+  }
+  
+  .map {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+  
+  .contact-form { width: 100%; }
+
+  .form-box div{
+    margin: 5px 0;
+    padding: 0;
+  }
 }
 
 /* Small phones: from 0 to 480px */
 @media only screen and (max-width: 480px) {
   section { padding: 25px 0; }
   .contact-form { width: 100%; }
+
+  .form-box div{
+    margin: 2px 0;
+    padding: 0;
+  }
 }
 
